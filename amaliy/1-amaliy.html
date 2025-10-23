@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Oddiy darslik sahifasi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Web Darslik</h1>
+      <nav class="main-nav">
+        <a href="#home">Bosh sahifa</a>
+        <a href="#about">Haqida</a>
+        <a href="#courses">Kurslar</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <h2>Salom, Web ishlab chiquvchilar!</h2>
+      <p>Bu sahifa HTML va CSS asoslarini mashq qilish uchun mo'ljallangan.</p>
+      <a class="btn" href="#courses">Kurslarga qarang</a>
+    </section>
+
+    <section id="about" class="card">
+      <h3>Haqida</h3>
+      <p>Bu oddiy loyiha: header, nav, kontent, sidebar va footer elementlari mavjud.</p>
+    </section>
+
+    <section id="courses" class="grid">
+      <article class="course-card">
+        <h4>HTML asoslari</h4>
+        <p>Elementlar, struktura va semantik teglari.</p>
+      </article>
+      <article class="course-card">
+        <h4>CSS asoslari</h4>
+        <p>Ranglar, tipografiya, box model va joylashuv.</p>
+      </article>
+      <article class="course-card">
+        <h4>Responsive dizayn</h4>
+        <p>Media queries va moslashuvchan tartib.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="card">
+      <h3>Kontakt</h3>
+      <form class="contact-form" action="#" method="post" onsubmit="return false;">
+        <label>
+          Ism
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Xabar
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button class="btn" type="submit">Yuborish</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Web Darslik — Hammasi oddiy va tushunarli.</p>
+    </div>
+  </footer>
+</body>
+</html>
